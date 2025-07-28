@@ -1,0 +1,394 @@
+KDM5B	Codebook TF
+ARID2	Codebook TF
+AHCTF1	Codebook TF
+AHDC1	Codebook TF
+AKNA	Codebook TF
+CBX2	Codebook TF
+DNTTIP1	Codebook TF
+DOT1L	Codebook TF
+GLYR1	Codebook TF
+PHF20	Codebook TF
+PHF21A	Codebook TF
+PRR12	Codebook TF
+SCML4	Codebook TF
+SETBP1	Codebook TF
+FAM200B	Codebook TF
+SGSM2	Codebook TF
+ZBED2	Codebook TF
+ZBED3	Codebook TF
+ZBED4	Codebook TF
+ZBED5	Codebook TF
+ZBED9	Codebook TF
+ZFTA	Codebook TF
+BHLHA9	Codebook TF
+NCOA1	Codebook TF
+NCOA2	Codebook TF
+NCOA3	Codebook TF
+SOHLH1	Codebook TF
+USF3	Codebook TF
+POGK	Codebook TF
+BATF2	Codebook TF
+CREB3L3	Codebook TF
+AC008770	Codebook TF
+AC092835	Codebook TF
+AKAP8	Codebook TF
+AKAP8L	Codebook TF
+ANKZF1	Codebook TF
+ATMIN	Codebook TF
+CASZ1	Codebook TF
+CCDC17	Codebook TF
+CHAMP1	Codebook TF
+CPXCR1	Codebook TF
+DZIP1	Codebook TF
+EEA1	Codebook TF
+FAM170A	Codebook TF
+FIZ1	Codebook TF
+JAZF1	Codebook TF
+KAT7	Codebook TF
+KIN	Codebook TF
+L3MBTL4	Codebook TF
+MYT1	Codebook TF
+PEG3	Codebook TF
+PRDM10	Codebook TF
+PRDM13	Codebook TF
+PRDM2	Codebook TF
+PRDM5	Codebook TF
+PRDM8	Codebook TF
+PRMT3	Codebook TF
+RBSN	Codebook TF
+RLF	Codebook TF
+SALL3	Codebook TF
+SLC2A4RG	Codebook TF
+TRAFD1	Codebook TF
+TSHZ2	Codebook TF
+ZBTB40	Codebook TF
+ZBTB41	Codebook TF
+ZBTB46	Codebook TF
+ZBTB47	Codebook TF
+ZBTB5	Codebook TF
+ZBTB8A	Codebook TF
+ZBTB8B	Codebook TF
+ZFAT	Codebook TF
+ZFP91	Codebook TF
+ZFPM1	Codebook TF
+ZFPM2	Codebook TF
+ZKSCAN4	Codebook TF
+ZMAT1	Codebook TF
+ZMAT4	Codebook TF
+ZNF107	Codebook TF
+ZNF131	Codebook TF
+ZNF14	Codebook TF
+ZNF142	Codebook TF
+ZNF160	Codebook TF
+ZNF20	Codebook TF
+ZNF207	Codebook TF
+ZNF208	Codebook TF
+ZNF215	Codebook TF
+ZNF226	Codebook TF
+ZNF229	Codebook TF
+ZNF230	Codebook TF
+ZNF233	Codebook TF
+ZNF234	Codebook TF
+ZNF251	Codebook TF
+ZNF275	Codebook TF
+ZNF280B	Codebook TF
+ZNF280D	Codebook TF
+ZNF286B	Codebook TF
+ZNF292	Codebook TF
+ZNF318	Codebook TF
+ZNF326	Codebook TF
+ZNF335	Codebook TF
+ZNF347	Codebook TF
+ZNF358	Codebook TF
+ZNF362	Codebook TF
+ZNF365	Codebook TF
+ZNF367	Codebook TF
+ZNF385A	Codebook TF
+ZNF385B	Codebook TF
+ZNF385C	Codebook TF
+ZNF395	Codebook TF
+ZNF407	Codebook TF
+ZNF428	Codebook TF
+ZNF43	Codebook TF
+ZNF446	Codebook TF
+ZNF469	Codebook TF
+ZNF470	Codebook TF
+ZNF471	Codebook TF
+ZNF474	Codebook TF
+ZNF48	Codebook TF
+ZNF493	Codebook TF
+ZNF497	Codebook TF
+ZNF500	Codebook TF
+ZNF503	Codebook TF
+ZNF507	Codebook TF
+ZNF510	Codebook TF
+ZNF516	Codebook TF
+ZNF518B	Codebook TF
+ZNF526	Codebook TF
+ZNF532	Codebook TF
+ZNF536	Codebook TF
+ZNF551	Codebook TF
+ZNF568	Codebook TF
+ZNF569	Codebook TF
+ZNF57	Codebook TF
+ZNF575	Codebook TF
+ZNF578	Codebook TF
+ZNF579	Codebook TF
+ZNF587B	Codebook TF
+ZNF592	Codebook TF
+ZNF598	Codebook TF
+ZNF606	Codebook TF
+ZNF608	Codebook TF
+ZNF609	Codebook TF
+ZNF618	Codebook TF
+ZNF623	Codebook TF
+ZNF630	Codebook TF
+ZNF639	Codebook TF
+ZNF644	Codebook TF
+ZNF646	Codebook TF
+ZNF648	Codebook TF
+ZNF654	Codebook TF
+ZNF66	Codebook TF
+ZNF665	Codebook TF
+ZNF668	Codebook TF
+ZNF672	Codebook TF
+ZNF676	Codebook TF
+ZNF678	Codebook TF
+ZNF683	Codebook TF
+ZNF687	Codebook TF
+ZNF688	Codebook TF
+ZNF689	Codebook TF
+ZNF696	Codebook TF
+ZNF699	Codebook TF
+ZNF70	Codebook TF
+ZNF700	Codebook TF
+ZNF703	Codebook TF
+ZNF705E	Codebook TF
+ZNF706	Codebook TF
+ZNF709	Codebook TF
+ZNF717	Codebook TF
+ZNF721	Codebook TF
+ZNF724	Codebook TF
+ZNF726	Codebook TF
+ZNF728	Codebook TF
+ZNF729	Codebook TF
+ZNF732	Codebook TF
+ZNF746	Codebook TF
+ZNF750	Codebook TF
+ZNF763	Codebook TF
+ZNF772	Codebook TF
+ZNF773	Codebook TF
+ZNF775	Codebook TF
+ZNF780B	Codebook TF
+ZNF781	Codebook TF
+ZNF788P	Codebook TF
+ZNF800	Codebook TF
+ZNF804A	Codebook TF
+ZNF813	Codebook TF
+ZNF814	Codebook TF
+ZNF827	Codebook TF
+ZNF83	Codebook TF
+ZNF831	Codebook TF
+ZNF836	Codebook TF
+ZNF841	Codebook TF
+ZNF844	Codebook TF
+ZNF845	Codebook TF
+ZNF850	Codebook TF
+ZNF853	Codebook TF
+ZNF865	Codebook TF
+ZNF878	Codebook TF
+ZNF888	Codebook TF
+ZNF91	Codebook TF
+ZNF92	Codebook TF
+ZSCAN12	Codebook TF
+ZSCAN18	Codebook TF
+ZSCAN2	Codebook TF
+ZSCAN25	Codebook TF
+ZUP1	Codebook TF
+ZXDA	Codebook TF
+ZXDB	Codebook TF
+ZXDC	Codebook TF
+ZBTB24	Codebook TF
+MBNL2	Codebook TF
+ZC3H8	Codebook TF
+ZGPAT	Codebook TF
+JRK	Codebook TF
+TIGD3	Codebook TF
+TIGD4	Codebook TF
+TIGD5	Codebook TF
+TIGD7	Codebook TF
+CAMTA1	Codebook TF
+CAMTA2	Codebook TF
+CXXC4	Codebook TF
+FBXL19	Codebook TF
+KDM2A	Codebook TF
+TET3	Codebook TF
+DMRTB1	Codebook TF
+FLYWCH1	Codebook TF
+GATAD2A	Codebook TF
+GATAD2B	Codebook TF
+ZGLP1	Codebook TF
+GRHL3	Codebook TF
+GTF2IRD2	Codebook TF
+GTF2IRD2B	Codebook TF
+HMG20A	Codebook TF
+HMGN3	Codebook TF
+ADNP	Codebook TF
+ADNP2	Codebook TF
+LEUTX	Codebook TF
+MKX	Codebook TF
+NANOGNB	Codebook TF
+TPRX1	Codebook TF
+ZHX2	Codebook TF
+ZHX3	Codebook TF
+POU5F2	Codebook TF
+HSFX1	Codebook TF
+HSFX2	Codebook TF
+MSANTD1	Codebook TF
+BAZ2B	Codebook TF
+MBD3	Codebook TF
+MBD4	Codebook TF
+MBD6	Codebook TF
+PIN1	Codebook TF
+SETDB2	Codebook TF
+BAZ2A	Codebook TF
+MBD1	Codebook TF
+MTERF2	Codebook TF
+MTERF3	Codebook TF
+MTERF4	Codebook TF
+DMTF1	Codebook TF
+MSANTD4	Codebook TF
+MYPOP	Codebook TF
+MYSM1	Codebook TF
+TERB1	Codebook TF
+TERF1	Codebook TF
+TTF1	Codebook TF
+MYRFL	Codebook TF
+NFX1	Codebook TF
+NFXL1	Codebook TF
+RFX8	Codebook TF
+SP100	Codebook TF
+SP110	Codebook TF
+SP140	Codebook TF
+SP140L	Codebook TF
+TBPL1	Codebook TF
+THAP10	Codebook TF
+THAP11	Codebook TF
+THAP2	Codebook TF
+THAP4	Codebook TF
+THAP5	Codebook TF
+THAP6	Codebook TF
+THAP7	Codebook TF
+THAP8	Codebook TF
+THAP9	Codebook TF
+AEBP1	Codebook TF
+ARHGAP35	Codebook TF
+BRF2	Codebook TF
+CC2D1A	Codebook TF
+CENPA	Codebook TF
+CENPS	Codebook TF
+CENPT	Codebook TF
+CENPX	Codebook TF
+CGGBP1	Codebook TF
+CHCHD3	Codebook TF
+CSRNP1	Codebook TF
+CSRNP2	Codebook TF
+CSRNP3	Codebook TF
+DACH1	Codebook TF
+DACH2	Codebook TF
+DR1	Codebook TF
+DRAP1	Codebook TF
+GLMP	Codebook TF
+GPBP1	Codebook TF
+GPBP1L1	Codebook TF
+KCNIP3	Codebook TF
+NACC2	Codebook TF
+NKRF	Codebook TF
+NME2	Codebook TF
+PA2G4	Codebook TF
+PCGF2	Codebook TF
+PCGF6	Codebook TF
+PHF19	Codebook TF
+PLSCR1	Codebook TF
+PREB	Codebook TF
+PURB	Codebook TF
+PURG	Codebook TF
+RAG1	Codebook TF
+RBCK1	Codebook TF
+REXO4	Codebook TF
+SAFB	Codebook TF
+SAFB2	Codebook TF
+SCMH1	Codebook TF
+SKI	Codebook TF
+SKIL	Codebook TF
+SMYD3	Codebook TF
+SNAPC2	Codebook TF
+SNAPC5	Codebook TF
+SON	Codebook TF
+TCF20	Codebook TF
+TET2	Codebook TF
+THYN1	Codebook TF
+TMF1	Codebook TF
+TSC22D1	Codebook TF
+HMGA1	Control
+ELF3	Control
+RFX5	Control
+MGA	Control
+CTCF	Control
+ZSCAN4	Control
+YY1	Control
+GLI4	Control
+SNAI1	Control
+ZFP28	Control
+ZFP3	Control
+ZIM3	Control
+ZNF121	Control
+ZNF134	Control
+ZNF140	Control
+ZNF146	Control
+ZNF16	Control
+ZNF18	Control
+ZNF189	Control
+ZNF22	Control
+ZNF250	Control
+ZNF260	Control
+ZNF264	Control
+ZNF280A	Control
+ZNF30	Control
+ZNF317	Control
+ZNF322	Control
+ZNF35	Control
+ZNF382	Control
+ZNF384	Control
+ZNF436	Control
+ZNF454	Control
+ZNF490	Control
+ZNF582	Control
+ZNF596	Control
+ZNF708	Control
+ZNF770	Control
+ZNF8	Control
+MAX	Control
+MYF6	Control
+FOSL2	Control
+JUN	Control
+JUNB	Control
+FLI1	Control
+GABPA	Control
+GCM1	Control
+LEF1	Control
+SOX15	Control
+SOX2	Control
+SOX5	Control
+SRY	Control
+LHX6	Control
+PAX7	Control
+POU5F1	Control
+NR1H4	Control
+NR4A2	Control
+RARA	Control
+RORB	Control
+RXRA	Control
+VDR	Control
+NFKB1	Control
+GFP	Control
