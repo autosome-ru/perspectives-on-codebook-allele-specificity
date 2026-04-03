@@ -8,13 +8,13 @@ tqdm.pandas()
 
 def parse_phenotypes(path):
     table = pd.read_table(path, index_col='RSID',
-                               dtype={x: str for x in ['grasp', 'ebi', 'clinvar', 'phewas', 'finemapping']})
-    table = table.filter(items=['grasp', 'ebi', 'clinvar', 'phewas', 'finemapping'])
+                               dtype={x: str for x in ['ebi']})
+    table = table.filter(items=['ebi'])
     return table
 
-def parse_gtex(qtlfiles, transqtl):
+def parse_gtex(qtlfiles):
 
-    result = {'trans': {}, 'cis': {}}
+    result = {'cis': {}}
     print('Number of cis-eQTL files:', len(qtlfiles))
 
     for qtlfile in tqdm(list(qtlfiles)):
@@ -35,23 +35,6 @@ def parse_gtex(qtlfiles, transqtl):
                 result['cis'].setdefault(chrpos, (set(), set()))[0].add(tis)
                 result['cis'][chrpos][1].add(a['gene_id'])
 
-    print('Starting to parse transqtl')
-    with open(transqtl) as trfile:
-        for line in trfile:
-            if line.startswith('tissue_id'):
-                tit = line.strip('\n').split('\t')
-                titlen = len(tit)
-                continue
-
-            a = line.strip('\n').split('\t')
-            a = {tit[x]: a[x] for x in range(titlen)}
-
-            chrpos = '_'.join(a['variant_id'].split('_')[:2])
-            tis = a['tissue_id']
-            gen = a['gene_id']
-
-            result['trans'].setdefault(chrpos, (set(), set()))[0].add(tis)
-            result['trans'][chrpos][1].add(gen)
     return result
 
 def annotate_with_gtex(row, qtl_info: dict, cis_trans: str, gene_or_pheno: int) -> str:
@@ -86,8 +69,6 @@ def annotate(snps_path, qtl_info, phenotypes_info, adastra_info):
     
     annotation['eQTL_cis'] = annotation.apply(lambda x: annotate_with_gtex(x, qtl_info, 'cis', 0), axis=1)
     annotation['eQTL_cis_gene'] = annotation.apply(lambda x: annotate_with_gtex(x, qtl_info, 'cis', 1), axis=1)
-    annotation['eQTL_trans'] = annotation.apply(lambda x: annotate_with_gtex(x, qtl_info, 'trans', 0), axis=1)
-    annotation['eQTL_trans_gene'] = annotation.apply(lambda x: annotate_with_gtex(x, qtl_info, 'trans', 1), axis=1)
     #annotation['ADASTRA_TFs'] = annotation.apply(lambda x: annotate_with_adastra(x, adastra_info), axis=1)
     annotation = annotation.merge(adastra_info[0], how='left', left_on='id', right_on='ID')
     annotation = annotation.merge(adastra_info[1], how='left', left_on='id', right_on='ID')
@@ -105,14 +86,13 @@ def annotate_proj(proj_path, out_path, qtl_info, phenotypes_info, adastra_info):
     
     
     
-qtl_files = glob('/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases/gwas_phenotypes/GTEx_Analysis_v8_eQTL/*signif*.txt')
-transqtl = '/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases/gwas_phenotypes/GTEx_Analysis_v8_trans_eGenes_fdr05.txt'
-qtl_info = parse_gtex(qtl_files, transqtl)
-phenotypes_info = parse_phenotypes('/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases/gwas_phenotypes/snpph.tsv')
-adastra_info = parse_adastra('/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases/adastra_billcipher/release_dump')
+qtl_files = glob('/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases_2025/GTEx_Analysis_v8_eQTL/*signif*.txt')
+qtl_info = parse_gtex(qtl_files)
+phenotypes_info = parse_phenotypes('/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases_2025/ebi.tsv')
+adastra_info = parse_adastra('/home/vladimirnoz/Projects/Codebook_Perspectives/common/Databases_2025/adastra_mabel')
 
-annotate_proj('as_tables/chipseq/ASB_motifs', 'as_tables/chipseq/ASB_phenotypes', qtl_info, phenotypes_info, adastra_info)
-annotate_proj('as_tables/selex/ASB_motifs', 'as_tables/selex/ASB_phenotypes', qtl_info, phenotypes_info, adastra_info)
-annotate_proj('as_tables_combine_everything/ASB', 'as_tables_combine_everything/ASB_phenotypes', qtl_info, phenotypes_info, adastra_info)
+#annotate_proj('as_tables/chipseq/ASB_motifs', 'as_tables/chipseq/ASB_phenotypes', qtl_info, phenotypes_info, adastra_info)
+#annotate_proj('as_tables/selex/ASB_motifs', 'as_tables/selex/ASB_phenotypes', qtl_info, phenotypes_info, adastra_info)
+annotate_proj('joint_tables/ASB', 'joint_tables/ASB_Phenotypes', qtl_info, phenotypes_info, adastra_info)
 
 
