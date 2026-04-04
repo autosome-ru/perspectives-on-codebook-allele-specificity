@@ -7,7 +7,7 @@
 * `peaks` — scripts for downloading and processing protein binding peaks and TOPs.
 
 ## Figures raw data
-* `AS_CHS_GHTS/raw_figure_tables`
+* `AS_CHS_GHTS/ASB_Extended_Data_Figure`
 
-## Extras
+## EXTRAs
 * `Chromatin` — scripts and notebooks for Codebook TFs binding specificity analysis of UDACHA datasets.
